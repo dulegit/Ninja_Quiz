@@ -1,1 +1,3 @@
-# Ninja_Quiz
+Ninja Quiz
+----------
+Short quiz with 10 questions about Superheroes developed in functional JavaScript...
