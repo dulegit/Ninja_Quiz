@@ -4,7 +4,7 @@ Short quiz with 10 questions about Superheroes developed in functional JavaScrip
 
 ### 2018-10-19, Update
 * For `$form.addEventListener()` add external function `btnClicked()`
-* Add missing `removeEventListener()` method for `btnClicked()`, which missing cause error when starting game for second, third, (etc.) time, without reloading browser.
+* Add missing `removeEventListener()` method for `btnClicked()`, which cause error when starting game for second, third, (etc.) time, without reloading browser. Errors/Updates:
     * In `function check(answer)` **question** object was undefined
-    * When you click on button to choose answer, it calls `check(event.target.value)` as much times as you start new game without reloading browser
+    * When you click on button to choose answer, it calls `check(event.target.value)` as much times as you started new game without reloading browser
     * remove unnecessary code, optimize code
